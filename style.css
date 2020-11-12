@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #111;
+}
+#todo{
+    background-color: white;
+    border: none;
+    width: 140%;
+    height: 40px;
+    position: relative;
+    right: 25%;
+    font-size:20px;
+    padding: 10px;
+
+}
+
+.todo-text{
+    color: #fff;
+    text-align: center;
+    font-size: 55px;
+    margin-top: 150px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bolder;
+}
+
+#plus{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    right: 35%;
+    background-color: white;
+    top: 39px;
+    color: #333;
+    border: none;
+    font-size: 40px;
+}
+
+#delete{
+    width: 100px;
+    height: 40px;
+    background-color: white;
+    color: #333;
+    border: none;
+    position: relative;
+    left: 65%;
+    margin-top: 30px;
+}
+
+#check{
+    width: 100px;
+    height: 40px;
+    background-color: white;
+    color: #333;
+    border: none;
+    position: relative;
+    left: 69%;
+    margin-top: 30px;
+}
+
+.btn-width{
+    width: 23%;
+    height: 40px;
+    position: relative;
+    left:35.5%;
+    top: 155px;
+    background-color: white;
+    border: none;
+    margin-bottom: 30px;
+    font-size: 20px;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.completed{
+    text-decoration: line-through;
+}
+
+.container{
+position: absolute;
+top: 45%;
+left: 40%;
+}
