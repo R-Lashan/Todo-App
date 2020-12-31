@@ -36,6 +36,7 @@
     color: #333;
     border: none;
     font-size: 40px;
+    outline:none;
 }
 
 #delete{
@@ -46,7 +47,8 @@
     border: none;
     position: relative;
     left: 65%;
-    margin-top: 30px;
+    margin-top: 30px;   
+    outline:none;
 }
 
 #check{
@@ -58,9 +60,10 @@
     position: relative;
     left: 69%;
     margin-top: 30px;
+    outline:none;
 }
 
-.btn-width{
+.todo-div{
     width: 23%;
     height: 40px;
     position: relative;
@@ -72,6 +75,7 @@
     font-size: 20px;
     padding: 10px;
     margin-top: 30px;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .completed{
@@ -82,4 +86,28 @@
 position: absolute;
 top: 45%;
 left: 40%;
+}
+
+.delete-btn{
+    background-color: white;
+    color: #333;
+    border: none;
+    position: absolute;
+    left: 60%;
+    margin-top: 0px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.check-btn{
+    background-color: white;
+    color: #333;
+    border: none;
+    position: absolute;
+    left: 70%;
+    margin-top: 0px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.checked{
+    text-decoration: line-through;
 }
